@@ -2,7 +2,6 @@ baseurl:             ""
 
 url:                 "https://hack-the-universe.github.io/"
 
-
 full:                false
 
 style:
@@ -32,11 +31,6 @@ event:
         time: "12.00 - 13.00"
         level: "No prior experience required."
         description: "wanna learn wowy? come thru fam"
-      # - name: ""
-      #   time: "12.00 - 13.00"
-      #   level: ""
-      #   description: ""
-
 
   sponsors:
     # tier1 is top, anycont is bottom (refer to sponsorship packages)
@@ -47,17 +41,6 @@ event:
       - logo:        "/images/cmuphysics_logo.png"
         name:        "Physics Department at CMU"
         url:         "http://www.cmu.edu/physics"
-    #   - logo:        "images/github_logo.png"
-    #     name:        "GitHub"
-    #     url:         "https://github.com"
-    # tier3:
-    #   - logo:        "images/codethink_logo.svg"
-    #     name:        "Codethink"
-    #     url:         "https://www.codethink.co.uk/"
-    # anycont:
-    #   - logo:        "images/InformaticsUni_transparent.gif"
-    #     name:        "University of Edinburgh School of Informatics"
-    #     url:         "http://www.ed.ac.uk/informatics"
 
   info:
     yo this is the info section what up 
@@ -72,9 +55,9 @@ event:
     - question:      "Am I eligible to attend"
       answer:        >
         Students at any level, as well as postdocs and faculty members, from any department are welcome to attend. 
-    - question:      "I'm a complete beginner. Can I still come?"
+    - question:      "What background do I need to have to attend?"
       answer:        >
-        Absolutely! We especially encourage people that are new in the field to come along as a hackathon is a great place to get started. [Drop us a message](mailto:cameron@ears-edi.com) if you have any concerns.
+        We encourage you to attend HTU even if you do not have a physics background, as long as you're interested in working on physics-related problems. HTU will focus on using data analysis and theory to solve physics problems, so skillsets in computer science, statistics, machine learning, math, etc. are very appropriate. We would also encourage you to attend if you're just interested in learning about applying any of these topics to physics problems.
     - question:      "Where is the event?"
       answer:        >
         The event is being hosted on CMU's campus, in Wean Hall 7316. Teams may also use other rooms on campus, but all major events/catering will happen in 7316
@@ -87,6 +70,12 @@ event:
     - question:      "Do I have to come with teammates?"
       answer:        >
         There is a team-forming session at the start of the first day so feel free to come along on your own or with friends.
+    - question:      "I can't think of a problem to work on, can you help?"
+      answer:        >
+        Absolutely! We'll aggregate a list of interesting problems to work on. We will also have physics datasets made available. In addition, you can hear other participants' ideas and join a team that interests you. If you're still feeling unsure, [drop us a message](mailto:halmouba@andrew.cmu.edu) and we'll do our best to help!
+    - question:      "I have a question that's not answered here, how can I get in touch?"
+      answer:        >
+        [Drop us a message!](mailto:halmouba@andrew.cmu.edu)
 
   schedule:
     Friday:
@@ -101,23 +90,12 @@ event:
       - text:        "Team forming session 1"
         start:       "10:30"
         end:         "11:00"
-      - text:        "GitHub workshop"
-        start:       "15.00"
-        end:         "16.00"
-      - text:        "Dinner"
-        start:       "18:00"
-        end:         "19:00"
     Sunday:
       - text:        "Midnight snack"
         start:       "00:00"
       - text:        "Breakfast"
         start:       "08:00"
         end:         "09:00"
-      - text:        "Submissions due"
-        start:       "12:00"
-      - text:        "Closing ceremony"
-        start:       "15:30"
-        end:         "16:30"
 
 markdown:            kramdown
 exclude:
