@@ -27,10 +27,15 @@ event:
       a r e  y o u  r e a d y ?
 
   workshops:
-      - name: "Introduction to wowy"
-        time: "12.00 - 13.00"
-        level: "No prior experience required."
-        description: "wanna learn wowy? come thru fam"
+      - name: "Data Visualization"
+        time: "Wednesday 23rd Jan, 16.30 - 18.00"
+        description: "Learn about data visualization in python using matplotlib, seaborn and plotly."
+      - name: "Numerical Methods in Physics"
+        time: "Tuesday 29th Jan, 16.30 - 18.00"
+        description: "Introduction to numerical methods such as Markov Chain Monte Carlo"
+      - name: "Machine Learning in Physics"
+        time: "Wednesday 30th Jan, 16.30 - 18.00"
+        description: "Overview of supervised machine learning techniques and recent applications in physics and astronomy."
 
   sponsors:
     # tier1 is top, anycont is bottom (refer to sponsorship packages)
@@ -43,7 +48,7 @@ event:
         url:         "http://www.cmu.edu/physics"
 
   info:
-    yo this is the info section what up 
+    # yo this is the info section what up 
 
   faq:
     - question:      "What is a hackathon?"
@@ -80,22 +85,38 @@ event:
   schedule:
     Friday:
       - text:        "Start of registration"
-        start:       "10:00"
-      - text:        "Team forming session 1"
-        start:       "10:30"
-        end:         "11:00"
+        start:       "14:30"
+      - text:        "Intro & Reception (Piada catering)"
+        start:       "16:30"
+        end:         "17:30"
+      - text:        "Idea pitches & team formation"
+        start:       "17:30"
+        end:         "18:30"
+      - text:        "Kick-off"
+        start:       "18:30"
     Saturday:
-      - text:        "Start of registration"
-        start:       "10:00"
-      - text:        "Team forming session 1"
-        start:       "10:30"
-        end:         "11:00"
-    Sunday:
-      - text:        "Midnight snack"
-        start:       "00:00"
       - text:        "Breakfast"
         start:       "08:00"
-        end:         "09:00"
+        end:         "10:00"
+      - text:        "Lunch (Chipotle)"
+        start:       "12:00"
+        end:         "13:00"
+      - text:        "Secret fun event"
+        start:       "14:00"
+        end:         "15:00"
+      - text:        "Dinner (Choolaah)"
+        start:       "18:00"
+        end:         "19:00"
+    Sunday:
+      - text:        "Breakfast"
+        start:       "08:00"
+        end:         "10:00"
+      - text:        "Lunch (Aladdin)"
+        start:       "12:00"
+        end:         "13:00"
+      - text:        "Final presentations & wrap-up"
+        start:       "14:00"
+        end:         "15:30"
 
 markdown:            kramdown
 exclude:
