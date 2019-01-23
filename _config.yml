@@ -28,7 +28,7 @@ event:
 
   workshops:
       - name: "Data Visualization"
-        time: "Wednesday 23rd Jan, 16.30 - 18.00"
+        time: "Wednesday 23rd Jan, 12.30 - 14.00"
         description: "Learn about data visualization in python using matplotlib, seaborn and plotly."
       - name: "Numerical Methods in Physics"
         time: "Tuesday 29th Jan, 16.30 - 18.00"
