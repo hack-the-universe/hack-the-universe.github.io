@@ -30,7 +30,7 @@ event:
       - name: "Data Visualization"
         time: "Wednesday 23rd Jan, 12.30 - 14.00"
         description: "Learn about data visualization in python using matplotlib, seaborn and plotly."
-      - name: "Numerical Methods in Physics"
+      - name: "Numerical Methods for and from Physics"
         time: "Tuesday 29th Jan, 16.30 - 18.00"
         description: "Introduction to numerical methods such as Markov Chain Monte Carlo"
       - name: "Machine Learning in Physics"
