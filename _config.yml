@@ -42,10 +42,13 @@ event:
     tier1:
       - logo:        "/images/gsa_logo.png"
         name:        "CMU Graduate Student Assembly"
-        url:         "http://www.cmu.edu/stugov/gsa"
+        url:         "https://www.cmu.edu/stugov/gsa"
       - logo:        "/images/cmuphysics_logo.png"
         name:        "Physics Department at CMU"
-        url:         "http://www.cmu.edu/physics"
+        url:         "https://www.cmu.edu/physics"
+      - logo:        "/images/psclogo.png"
+        name:        "Pittsburgh Supercomputing Center"
+        url:         "https://psc.edu"
 
   info:
     # yo this is the info section what up 
